@@ -43,7 +43,7 @@ const addNote = (title, body) => {
     saveNotes(notes)
     console.log(chalk.black.bgGreen('New note added!'))
   } else {
-    console.log("Note title taken!!!!! Choose another title name.")
+    console.log(chalk.yellow.inverse("Note title taken!!!!!  Choose another title name."))
   }
 }
 
